@@ -12,7 +12,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container m-5">
+  <div class="container mx-auto mt-5 mb-5">
     <div class="title">
       <h1>系所属の点数計算</h1>
       <p class="p-3">系所属の点数を計算することができます</p>
@@ -23,7 +23,7 @@
         系所属点とは東京工業大学の学部 1 年の学生が 2 年生へと進級するとき，どの系に進むことができるのかを決定する点数です．<br>
         系所属点が高い学生ほど，その人が希望する系に進むことができます．<br>
         点数の計算方法は，31単位分の点数で，
-        <ul class="mt-2 mb-2">
+        <ul class="mt-2 mb-2 pl-4">
           <li>必修科目17単位以上</li>
           <li>選択科目14科目まで</li>
         </ul>
@@ -40,16 +40,16 @@
             <div class="content col-lg">
               <div class="p-3">
                 次の入力方法にしたがって，下の記入例のように入力してください．
-                <ul>
+                <ul class="pl-4">
                   <li>このフォームでは半角数字(0123456789)，カンマ(,)，改行・空白・バックスペースのみが入力できます</li>
                   <li>数字はカンマと改行のみで区切ります</li>
                   <li>一行につき2～3つまでの数字しか入力してはいけません</li>
                   <li>数字は左から順に(点数, 単位数, 必修科目か選択科目か)を表します</li>
-                  <ul>
+                  <ul class="pl-3">
                     <li>点数は0から100までの整数を入力してください</li>
                     <li>単位数は0以上の整数を入力してください</li>
                     <li>必修科目または選択科目は，
-                      <ul>
+                      <ul class="pl-3">
                         <li>必修科目は0または入力なしで表せます</li>
                         <li>選択科目は1以上の整数値で表します</li>
                       </ul>
